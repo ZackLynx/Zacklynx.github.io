@@ -1,0 +1,9 @@
+body {
+  font-family: 'Cascadia Code', monospace;
+}
+
+.title,
+.copyright {
+  font-weight: 300;
+  text-align: center;
+}
