@@ -1,3 +1,24 @@
+@font-face {
+  font-family: 'Cascadia Code';
+  font-weight: 300;
+  font-style: normal;
+  src: url("./fonts/CascadiaCode-Light.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Cascadia Code';
+  font-weight: 400;
+  font-style: normal;
+  src: url("./fonts/CascadiaCode-Regular.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Cascadia Code';
+  font-weight: 700;
+  font-style: normal;
+  src: url("./fonts/CascadiaCode-Bold.woff2") format('woff2');
+}
+
 body {
   font-family: 'Cascadia Code', monospace;
   max-width: 70rem;
