@@ -1,9 +1,30 @@
 body {
   font-family: 'Cascadia Code', monospace;
+  max-width: 70rem;
+  margin: 1rem auto;
 }
 
 .title,
 .copyright {
   font-weight: 300;
   text-align: center;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.project {
+  max-width: 30rem;
+  min-width: 10rem;
+}
+
+@media (max-width: 800px) {
+  .projects {
+    flex-direction: column;
+  }
 }
