@@ -23,6 +23,17 @@ body {
   font-family: 'Cascadia Code', monospace;
   max-width: 70rem;
   margin: 1rem auto;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  > a {
+    margin: 1rem;
+  }
 }
 
 .title,
@@ -35,17 +46,28 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
+  gap: 1rem;
 
 }
 
 .project {
+  display: flex;
+  flex-direction: column;
   max-width: 30rem;
   min-width: 10rem;
+  border: 2px solid black;
+  border-radius: 1rem;
+  padding: 0 1rem
+}
+
+.project-link {
+  margin-top: auto;
 }
 
 @media (max-width: 800px) {
   .projects {
     flex-direction: column;
+    align-items: center;
   }
 }
