@@ -39,19 +39,29 @@ nav {
   }
 }
 
+h1,
+h2,
+h3 {
+  color: #CE9178;
+}
+
+h1 {
+  text-align: center;
+}
+
 a:link {
-  color: lightskyblue;
+  color: #9CDCFE;
 }
 
 a:visited {
-  color: #f6f;
+  color: #C586C0;
 }
 
 a:hover {
-  color: lightgreen;
+  color: #B5CEA8;
 }
 
-.title,
+
 .copyright {
   font-weight: 300;
   text-align: center;
@@ -78,6 +88,15 @@ a:hover {
 
 .project-link {
   margin-top: auto;
+}
+
+#socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+
+  margin: 1rem;
 }
 
 @media (max-width: 800px) {
